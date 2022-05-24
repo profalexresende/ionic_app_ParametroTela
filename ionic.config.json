@@ -1,0 +1,7 @@
+{
+  "name": "appParametroTela",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
