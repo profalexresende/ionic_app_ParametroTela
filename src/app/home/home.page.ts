@@ -11,11 +11,11 @@ export class HomePage {
   nome: string;
   telefone: string;
   email: string;
+  sexo: string;
 
   constructor(public router: Router) {}
 
   abrirTela(){
-    const dados= {nome:this.nome, email:this.email,telefone:this.telefone};
     this.router.navigateByUrl(`/tela-confirmar/${this.nome}/${this.email}/${this.telefone}`);
   }
 
